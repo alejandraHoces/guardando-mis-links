@@ -3,7 +3,7 @@ var boton = document.getElementById('save');
 var lista = document.getElementById('container-links');
 
 boton.addEventListener('click', function(event){
-  if(event.target.value){
+  if(area.value){
     var li = document.createElement('li');
     var link = document.createElement('a');
 
